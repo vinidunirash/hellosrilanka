@@ -1,0 +1,28 @@
+{
+    "_id": {
+        "$oid": "6136febb583953e9ecfaa384"
+    },
+    "name": "employee",
+    "fields": {
+        "fname": {
+            "type": "String",
+            "required": true,
+            "inbuilt": true
+        },
+        "lname": {
+            "type": "String",
+            "required": true,
+            "inbuilt": true
+        },
+        "email": {
+            "type": "String",
+            "required": true,
+            "inbuilt": true
+        },
+        "departments": {
+            "type": [],
+            "required": false,
+            "inbuilt": true
+        }
+    }
+}
